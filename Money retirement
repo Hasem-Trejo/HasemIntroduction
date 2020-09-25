@@ -1,0 +1,59 @@
+This is a code that been working on
+Its suppose tell you the difference in money between two person
+As well tell when should retire when having more than the other 
+
+#include <iostream>
+
+using namespace std;
+void S ()
+{
+    int c;
+}
+int main()
+
+{
+    int B,b,c,A,a;
+    cin >> B >> b >> c>> A >> a;
+    
+    if ( B <  101 && B > 19)
+    {
+        if ( b < B)
+        {
+            return 0;
+        }
+        
+    }
+    do
+    {
+        for (int i = b ; i <= B ; b--)
+             {
+                 
+               S(c);
+               --b;
+             }
+    }
+    while (B==b);
+    
+    
+    
+    if (A > 101 || A < 19)
+    {
+        return 0;
+    }
+    
+    do
+    {
+        cout << S << endl;
+        ++A;
+    }
+    while ( a < c);
+    
+    cout << A << endl;
+    
+    return 0;
+        
+    }
+void S ()
+{
+     int s = c*c;
+}
